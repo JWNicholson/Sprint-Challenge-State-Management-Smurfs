@@ -2,4 +2,43 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  text-align: center;
 }
+
+.grid{
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+}
+
+.smurf{
+  margin:12px;
+}
+.card{
+  margin:16px;
+  border-radius:8px;
+  height:160px;
+  width:120px;
+  -webkit-box-shadow: -4px 2px 5px 0px rgba(65,71,89,1);
+-moz-box-shadow: -4px 2px 5px 0px rgba(65,71,89,1);
+box-shadow: -4px 2px 5px 0px rgba(65,71,89,1);
+}
+
+
+.add-form{
+  margin:24px auto;
+  width:380px;
+  height:180px;
+  text-align:left;
+  border:1px solid #333;
+  border-radius: 8px;
+  -webkit-box-shadow: -4px 2px 5px 0px rgba(65,71,89,1);
+  -moz-box-shadow: -4px 2px 5px 0px rgba(65,71,89,1);
+  box-shadow: -4px 2px 5px 0px rgba(65,71,89,1);
+}
+
+.form-group{
+  margin:18px;
+  width:80%;
+}
+

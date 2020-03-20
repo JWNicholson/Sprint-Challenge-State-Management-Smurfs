@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import SmurfInfo from './SmurfInfo';
 import { getSmurfs } from '../actions/smurfsActions';
 
+
 function GridLayout (props) {
     useEffect(() => {
         props.getSmurfs();
@@ -10,7 +11,6 @@ function GridLayout (props) {
 
     return (
         <div>
-            {props.isFetching && <p>Looking for smurfs...</p>}
             {props.data &&
             <div className="grid">
                 {props.data.map(smurf => (
