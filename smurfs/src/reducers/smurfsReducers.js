@@ -13,9 +13,9 @@ const initialState = [
         isFetching: false,
         error: ''
     }
-];0
+];
 
-const smursReducer = (state = initialState, action) => {
+const smurfsReducer = (state = initialState, action) => {
     switch(action.type){
         case FETCH_SMURF_START:
             const startState = {
